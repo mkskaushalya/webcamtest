@@ -7,6 +7,11 @@
 </head>
 <body>
     <h1>Webcam Access Demo</h1>
+    <form action="">
+        <label for="cameraInput">Camera Input:</label>
+        <input id="cameraInput" type="file" accept="image/*" capture="camera" placeholder="Upload an image">
+    </form>
+    
     <video id="webcam" width="640" height="480" autoplay></video>
     <script src="script.js"></script>
 </body>
